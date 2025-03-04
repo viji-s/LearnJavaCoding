@@ -12,14 +12,14 @@ public void m1() {
    // System.out.println(arr);
 }
 	
-	public static int sumOfArray(int[] a , int sum) {
+	public static void sumOfArray(int[] a , int sum) {
 
 		//int[] arr= {2,4,6,7,8};
 		for(int i=0; i<a.length;i++) {
 			 sum = sum + a[i];
 		}
 		System.out.println(sum);
-		return sum;
+	
 	}
 	
 	public static void searchSpecificNumberInArray(int[] a , int b) {
